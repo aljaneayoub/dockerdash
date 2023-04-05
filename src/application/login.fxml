@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXCheckBox?>
+<?import com.jfoenix.controls.JFXTextArea?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="550.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Pane prefHeight="550.0" prefWidth="450.0" style="-fx-background-color: #00ff87;">
+         <children>
+            <ImageView fitHeight="222.0" fitWidth="293.0" layoutX="114.0" layoutY="164.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@Dash.png" />
+               </image>
+            </ImageView>
+         </children>
+      </Pane>
+      <Pane id="submit" layoutX="450.0" prefHeight="550.0" prefWidth="350.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <Label layoutX="51.0" layoutY="166.0" text="Don't have an account?" />
+            <Label layoutX="51.0" layoutY="95.0" text="Login">
+               <font>
+                  <Font name="Arial" size="26.0" />
+               </font>
+            </Label>
+            <Label layoutX="210.0" layoutY="166.0" text="Create one" textFill="#00ff87" />
+            <JFXTextArea id="username" accessibleRole="TEXT_FIELD" focusColor="#00ff87" layoutX="51.0" layoutY="218.0" prefHeight="35.0" prefWidth="238.0" />
+            <JFXTextArea id="password" accessibleRole="PASSWORD_FIELD" focusColor="#00ff87" layoutX="51.0" layoutY="293.0" prefHeight="36.0" prefWidth="238.0" />
+            <JFXCheckBox id="save" layoutX="51.0" layoutY="380.0" text="save password" />
+            <JFXButton layoutX="126.0" layoutY="428.0" prefHeight="31.0" prefWidth="89.0" style="-fx-cursor: 20px;" text="connect" />
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
