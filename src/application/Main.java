@@ -4,8 +4,7 @@ import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.stage.Stage;
 import javafx.scene.Scene;
-import javafx.scene.layout.BorderPane;
-import javafx.scene.Parent;
+import javafx.scene.layout.AnchorPane;
 
 
 public class Main extends Application {
@@ -15,9 +14,12 @@ public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) {
 		try {
-			Parent root = FXMLLoader.load(getClass().getResource("/application/login.fxml"));
-			Scene scene = new Scene(root,800,550);
 			
+			FXMLLoader root = new FXMLLoader(getClass().getResource("/application/login.fxml"));
+            AnchorPane page1 = root.load();
+            control page1Controller = root.getController();
+			
+            Scene scene = new Scene(page1);
 			primaryStage.setScene(scene);
 			primaryStage.show();
 		} catch(Exception e) {
