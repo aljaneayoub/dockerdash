@@ -1,53 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?import com.jfoenix.controls.JFXButton?>
-<?import javafx.scene.control.*?>
 
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.Cursor?>
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Secondcontroll">
    <children>
       <Pane prefHeight="680.0" prefWidth="70.0" style="-fx-background-color: #182722;">
          <children>
-         <!-- <Button fx:id="imageButton1" onAction="#handleImageButtonAction1">
-         <graphic> -->
-            <ImageView fitHeight="70.0" fitWidth="57.0" layoutX="7.0" layoutY="166.0" pickOnBounds="true" preserveRatio="true">
+
+            <ImageView fitHeight="70.0" fitWidth="57.0" layoutX="7.0" layoutY="166.0" onMousePressed="#mousepressed3" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@icons8-history-64.png" />
+                  <Image url="@icons8-history-64.png" />                  
                </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </ImageView>
-           <!--  </graphic>
-            </Button> -->
-            <!-- <Button fx:id="imageButton2" onAction="#handleImageButtonAction2">
-            <graphic> -->
-            <ImageView fitHeight="68.0" fitWidth="57.0" layoutX="7.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+
+            <ImageView fitHeight="68.0" fitWidth="57.0" layoutX="7.0" layoutY="14.0" onMousePressed="#mousepressed1" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@Dash.png" />
                </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </ImageView>
-            <!-- </graphic>
-            </Button> -->
-            <!-- <Button fx:id="imageButton3" onAction="#handleImageButtonAction3">
-            <graphic> -->
-            <ImageView fitHeight="79.0" fitWidth="57.0" layoutX="7.0" layoutY="87.0" pickOnBounds="true" preserveRatio="true">
+
+            <ImageView fitHeight="79.0" fitWidth="57.0" layoutX="7.0" layoutY="87.0" onMousePressed="#mousepressed2" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@icons8-registry-editor-100.png" />
+                  <Image url="@icons8-registry-editor-100.png" />                  
                </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </ImageView>
-            <!-- </graphic>
-            </Button>-->
-            
-            <!-- <Button fx:id="imageButton4" onAction="#handleImageButtonAction4">
-            <graphic>  -->
-            <ImageView fitHeight="33.0" fitWidth="27.0" layoutX="22.0" layoutY="631.0" pickOnBounds="true" preserveRatio="true">
+
+            <ImageView fitHeight="33.0" fitWidth="27.0" layoutX="22.0" layoutY="631.0" onMousePressed="#mousepressedlogout" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@icons8-log-out-32.png" />
+                  <Image url="@icons8-log-out-32.png" />                  
                </image>
+               <cursor>
+                  <Cursor fx:constant="HAND" />
+               </cursor>
             </ImageView>
-             <!-- </graphic>
-            </Button> -->
+
          </children>
       </Pane>
    </children>
