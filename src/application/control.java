@@ -1,5 +1,6 @@
 package application;
 
+import java.awt.Desktop;
 import java.io.IOException;
 import java.net.URI;
 import java.net.URISyntaxException;
@@ -13,6 +14,7 @@ import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Hyperlink;
 import javafx.scene.layout.AnchorPane;
+//import javafx.scene.web.WebView;
 import javafx.stage.Stage;
 
 public class control {
@@ -42,10 +44,14 @@ public class control {
     }
 
     @FXML
-    void handleLinkClicked(ActionEvent event) throws IOException, URISyntaxException {
+    void handleLinkClicked() throws IOException, URISyntaxException {
     	System.out.print("clicked");
-        URI uri = new URI("https://github.com/aljaneayoub/dockerdash/blob/master/README.md");
-        java.awt.Desktop.getDesktop().browse(uri);
+    	String url = hyperLink.getText();
+
+
+            Desktop.getDesktop().browse(new URI("https://github.com/aljaneayoub/dockerdash/blob/master/README.md"));
+       
+    }
     }
 
-}
+

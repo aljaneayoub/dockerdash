@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="680.0" prefWidth="887.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.acceuil">
+	 	<children>
+      <Pane layoutX="67.0" layoutY="27.0" prefHeight="54.0" prefWidth="773.0" style="-fx-background-color: #00ff87;">
+         <children>
+       	<Label layoutX="345.0" layoutY="18.0" text="Latest images" textFill="WHITE">
+               <font>
+                  <Font name="Arial Bold" size="19.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+ 	</children>
+</Pane>
