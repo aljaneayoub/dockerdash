@@ -1,19 +1,176 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Rectangle2D?>
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.geometry.Insets?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
 <Pane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" prefHeight="680.0" prefWidth="887.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.acceuil">
    <children>
-      <ImageView fitHeight="741.0" fitWidth="299.0" layoutX="116.0" layoutY="-116.0" pickOnBounds="true" preserveRatio="true" rotate="90.0">
-         <image>
-            <Image url="@couverture.png" />
-         </image>
-         <viewport>
-            <Rectangle2D />
-         </viewport>
-      </ImageView>
+      <VBox layoutX="245.0" layoutY="183.0" prefHeight="226.0" prefWidth="171.0" style="-fx-border-color: #a6a6a6;">
+         <children>
+            <JFXButton text=" ">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@docker.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Image Name" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Description">
+               <VBox.margin>
+                  <Insets left="50.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+      </VBox>
+      <VBox layoutX="444.0" layoutY="183.0" prefHeight="226.0" prefWidth="171.0" style="-fx-border-color: #a6a6a6;">
+         <children>
+            <JFXButton text=" ">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@docker.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Image Name" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Description">
+               <VBox.margin>
+                  <Insets left="50.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+      </VBox>
+      <VBox layoutX="44.0" layoutY="183.0" prefHeight="226.0" prefWidth="171.0" style="-fx-border-color: #a6a6a6;">
+         <children>
+            <JFXButton text=" ">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@docker.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Image Name" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Description">
+               <VBox.margin>
+                  <Insets left="50.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+      </VBox>
+      <VBox layoutX="646.0" layoutY="183.0" prefHeight="226.0" prefWidth="171.0" style="-fx-border-color: #a6a6a6;">
+         <children>
+            <JFXButton text=" ">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@docker.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Image Name" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Description">
+               <VBox.margin>
+                  <Insets left="50.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+      </VBox>
+      <VBox layoutX="245.0" layoutY="440.0" prefHeight="226.0" prefWidth="171.0" style="-fx-border-color: #a6a6a6;">
+         <children>
+            <JFXButton text=" ">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@docker.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Image Name" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Description">
+               <VBox.margin>
+                  <Insets left="50.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+      </VBox>
+      <VBox layoutX="444.0" layoutY="440.0" prefHeight="226.0" prefWidth="171.0" style="-fx-border-color: #a6a6a6;">
+         <children>
+            <JFXButton text=" ">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@docker.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Image Name" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Description">
+               <VBox.margin>
+                  <Insets left="50.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+      </VBox>
+      <VBox layoutX="44.0" layoutY="440.0" prefHeight="226.0" prefWidth="171.0" style="-fx-border-color: #a6a6a6;">
+         <children>
+            <JFXButton text=" ">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@docker.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Image Name" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Description">
+               <VBox.margin>
+                  <Insets left="50.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+      </VBox>
+      <VBox layoutX="646.0" layoutY="440.0" prefHeight="226.0" prefWidth="171.0" style="-fx-border-color: #a6a6a6;">
+         <children>
+            <JFXButton text=" ">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@docker.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </JFXButton>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Image Name" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Description">
+               <VBox.margin>
+                  <Insets left="50.0" />
+               </VBox.margin>
+            </Text>
+         </children>
+      </VBox>
+      <Pane prefHeight="60.0" prefWidth="887.0" style="-fx-background-color: #a6a6a6;">
+         <children>
+            <Text fill="WHITE" layoutX="32.0" layoutY="39.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Desk ">
+               <font>
+                  <Font name="Comic Sans MS" size="27.0" />
+               </font>
+            </Text>
+         </children>
+      </Pane>
    </children>
 </Pane>

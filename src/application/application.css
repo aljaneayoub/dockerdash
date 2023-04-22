@@ -1,1 +1,21 @@
 /* JavaFX CSS - Leave this comment until you have at least create one rule which uses -fx-Property */
+.card {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 5px;
+    -fx-border-width: 1px;
+    -fx-border-color: #EAEAEA;
+    -fx-padding: 10px;
+    -fx-effect: dropshadow(rgba(0, 0, 0, 0.1), 0, 0, 1, 1);
+}
+
+.card:hover {
+    -fx-effect: dropshadow(rgba(0, 0, 0, 0.2), 0, 0, 2, 2);
+}
+
+.titleLabel {
+    -fx-text-fill: #333333;
+}
+
+.descriptionLabel {
+    -fx-text-fill: #777777;
+}
