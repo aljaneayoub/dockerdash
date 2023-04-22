@@ -15,9 +15,9 @@
    <left>
       <Pane prefHeight="680.0" prefWidth="120.0" BorderPane.alignment="CENTER">
          <children>
-            <VBox prefHeight="680.0" prefWidth="43.0" style="-fx-background-color: #182722;">
+            <VBox prefHeight="680.0" prefWidth="10.0" style="-fx-background-color: #182722;">
                <children>
-                  <JFXButton accessibleRole="IMAGE_VIEW" onAction="#acceuil" prefHeight="63.0" prefWidth="207.0" text=" ">
+                  <JFXButton accessibleRole="IMAGE_VIEW" onAction="#acceuil" prefHeight="70.0" prefWidth="49.0" text=" ">
                      <graphic>
                         <ImageView fitHeight="81.0" fitWidth="62.0" pickOnBounds="true" preserveRatio="true">
                            <image>
@@ -31,10 +31,13 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
                   </JFXButton>
-                  <JFXButton onAction="#layers" prefHeight="111.0" prefWidth="97.0" text=" ">
+                  <JFXButton onAction="#layers" prefHeight="111.0" prefWidth="72.0" text=" ">
                      <graphic>
-                        <ImageView fitHeight="101.0" fitWidth="66.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="66.0" fitWidth="79.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@icons8-registry-editor-100.png" />
                            </image>
@@ -46,10 +49,13 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
                   </JFXButton>
                   <JFXButton onAction="#history" text=" ">
                      <graphic>
-                        <ImageView fitHeight="76.0" fitWidth="64.0" pickOnBounds="true" preserveRatio="true">
+                        <ImageView fitHeight="64.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@icons8-history-64.png" />
                            </image>
@@ -61,10 +67,13 @@
                      <cursor>
                         <Cursor fx:constant="HAND" />
                      </cursor>
+                     <VBox.margin>
+                        <Insets left="10.0" />
+                     </VBox.margin>
                   </JFXButton>
                   <JFXButton onAction="#logout" text=" ">
                      <VBox.margin>
-                        <Insets left="10.0" top="380.0" />
+                        <Insets left="20.0" top="380.0" />
                      </VBox.margin>
                      <graphic>
                         <ImageView fitHeight="33.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
