@@ -11,9 +11,9 @@
 <?import javafx.scene.layout.StackPane?>
 <?import javafx.scene.layout.VBox?>
 
-<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="980.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Secondcontroll">
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="680.0" prefWidth="940.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Secondcontroll">
    <left>
-      <Pane prefHeight="680.0" prefWidth="120.0" BorderPane.alignment="CENTER">
+      <Pane prefHeight="680.0" prefWidth="103.0" BorderPane.alignment="CENTER">
          <children>
             <VBox prefHeight="680.0" prefWidth="10.0" style="-fx-background-color: #182722;">
                <children>
@@ -92,9 +92,9 @@
       </Pane>
    </left>
    <center>
-      <AnchorPane prefHeight="680.0" prefWidth="835.0" BorderPane.alignment="CENTER">
+      <AnchorPane prefHeight="680.0" prefWidth="800.0" BorderPane.alignment="CENTER">
          <children>
-			<StackPane fx:id="contentarea" layoutX="-27.0" prefHeight="680.0" prefWidth="887.0" />
+			<StackPane fx:id="contentarea" prefHeight="680.0" prefWidth="840.0" />
          </children>
       </AnchorPane>
    </center>
