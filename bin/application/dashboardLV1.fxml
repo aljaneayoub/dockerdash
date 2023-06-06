@@ -57,7 +57,7 @@
                      <graphic>
                         <ImageView fitHeight="64.0" fitWidth="59.0" pickOnBounds="true" preserveRatio="true">
                            <image>
-                              <Image url="@icons8-history-64.png" />
+                              <Image url="@hammer.png" />
                            </image>
                            <cursor>
                               <Cursor fx:constant="HAND" />

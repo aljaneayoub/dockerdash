@@ -5,5 +5,7 @@ module local_registry {
 	requires com.jfoenix;
 	requires java.desktop;
 	requires javafx.web;
+	requires java.sql;
+	requires java.json;
 	opens application to javafx.graphics, javafx.fxml;
 }

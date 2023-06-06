@@ -5,7 +5,7 @@
 
 <Pane style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.history">
  	<children>
- 	<Label layoutX="450.0" layoutY="350.0" text="history">
+ 	<Label layoutX="450.0" layoutY="350.0" text="build images">
  	</Label>
  	</children>
 </Pane>

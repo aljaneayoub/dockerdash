@@ -4,25 +4,20 @@ import javafx.scene.control.Label;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.text.*;
+import javafx.scene.Scene;
+import javafx.scene.layout.Pane;
+import javafx.scene.paint.Color;
+import javafx.stage.Stage;
 public class acceuil {
-	@FXML
-    private ImageView imageView;
+    public void start(Stage primaryStage) {
+        Pane card = new Pane(); // Create a Pane for the card
+        card.setPrefSize(60, 80); // Set the preferred size of the card
+        card.setStyle("-fx-background-color: #ECECEC;"); // Set the background color of the card
 
-    @FXML
-    private Label titleLabel;
-
-    @FXML
-    private Label descriptionLabel;
-
-    public void setTitle(String title) {
-        titleLabel.setText(title);
+        Scene scene = new Scene(card);
+        primaryStage.setScene(scene);
+        primaryStage.setTitle("Card Example");
+        primaryStage.show();
     }
 
-    public void setDescription(String description) {
-        descriptionLabel.setText(description);
-    }
-
-    public void setImage(String imageUrl) {
-        imageView.setImage(new Image(imageUrl));
-    }
 }
