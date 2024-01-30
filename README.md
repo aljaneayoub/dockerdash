@@ -22,9 +22,11 @@ Ensure you have Java 8 or later and JavaFX installed on your system.
 ## Screenshots
 
 ![Screenshot 1](login.png)
+
 *login page*
 
 ![Screenshot 2](desk.png)
+
 *latest docker images*
 
 ## Installation
